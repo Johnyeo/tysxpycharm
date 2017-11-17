@@ -14,7 +14,7 @@ class Chrome(object):
         # 打开网址
         self.driver.get(url)
         # 设置休眠时间
-        time.sleep(5)
+        time.sleep(2)
         pass
     # 关闭谷歌浏览器
     def CloseChrom(self):
